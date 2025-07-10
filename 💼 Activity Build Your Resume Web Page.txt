@@ -1,0 +1,50 @@
+💼 Activity: Build Your Resume Web Page
+🧠 Objective:
+Create a personal resume-style web page using HTML, CSS, and JavaScript. You will design your own resume, style it with CSS, and add interactive features using JavaScript.
+
+📋 Instructions:
+You will build a resume webpage with the following sections:
+
+✅ 1. Resume Sections (HTML)
+Include these main sections on your page:
+
+🧑‍🎓 1. Header
+Your full name
+
+A tagline (e.g. "Aspiring Web Developer" or "Creative Thinker | Problem Solver")
+
+👤 2. About Me
+A short paragraph about your background, interests, and goals
+
+🎓 3. Education
+Schools, programs, courses, or certifications you've completed
+
+🛠️ 4. Skills
+A list of technical or soft skills (HTML, CSS, JS, teamwork, etc.)
+
+💼 5. Projects or Experience
+Showcase personal, academic, or freelance projects
+
+📫 6. Contact Me
+Email and Message, and Send.
+
+💬 7. Comment Section
+At the bottom of the page, add a Comment Section. Composed of Name, Comment, and submit button.
+
+🎨 Style Your Page (CSS)
+Make your page visually appealing:
+
+Use colors, fonts, and spacing
+
+Make sections distinct
+
+Add responsive layout if possible
+
+🧪 Optional Enhancements
+Add profile picture or background image
+
+Add hover/transition effects
+
+Use media queries for mobile responsiveness
+
+Create a "Download Resume" button
