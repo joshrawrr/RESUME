@@ -1,178 +1,148 @@
-# RESUME
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Allan Joshua Manalo - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Allan Joshua C. Manalo - Resume</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
       margin: 0;
       padding: 0;
-      background: #f4f4f9;
+      background: #f4f4f4;
       color: #333;
     }
-
     header {
-      background-color: #2c3e50;
+      background: #4a90e2;
       color: white;
+      padding: 20px 0;
       text-align: center;
-      padding: 2em 1em;
     }
-
-    header img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-
     header h1 {
       margin: 0;
-      font-size: 2.5em;
     }
-
     header p {
+      margin-top: 5px;
       font-style: italic;
-      color: #ccc;
     }
-
     section {
-      padding: 2em;
-      margin: 1em auto;
+      padding: 20px;
       max-width: 800px;
+      margin: auto;
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-
-    section h2 {
-      border-bottom: 2px solid #2c3e50;
+    h2 {
+      border-bottom: 2px solid #4a90e2;
       padding-bottom: 5px;
-      margin-bottom: 1em;
     }
-
     ul {
       list-style: none;
-      padding: 0;
+      padding-left: 0;
     }
-
-    ul li {
-      padding: 5px 0;
+    li::before {
+      content: "✔️ ";
+      color: #4a90e2;
     }
-
-    .contact-form input, .contact-form textarea, .comment-form input, .comment-form textarea {
+    .contact-form input, .contact-form textarea {
       width: 100%;
       padding: 10px;
-      margin: 0.5em 0;
+      margin-bottom: 10px;
       border: 1px solid #ccc;
-      border-radius: 5px;
+      border-radius: 4px;
     }
-
-    .contact-form button, .comment-form button {
-      background: #2c3e50;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    .contact-form button:hover, .comment-form button:hover {
-      background: #1abc9c;
-    }
-
-    .download-btn {
-      display: inline-block;
-      background: #2980b9;
+    .contact-form button {
+      background-color: #4a90e2;
       color: white;
       padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .comment-section input, .comment-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .comment-section button {
+      background-color: #4a90e2;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .download-btn {
+      display: inline-block;
       margin-top: 10px;
-      border-radius: 5px;
+      background-color: #4a90e2;
+      color: white;
+      padding: 10px;
       text-decoration: none;
-    }
-
-    .download-btn:hover {
-      background: #3498db;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8em;
-      }
-
-      section {
-        margin: 1em;
-        padding: 1em;
-      }
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
-
-  <!-- 🧑‍🎓 Header -->
   <header>
-    <img src="https://via.placeholder.com/120" alt="Profile Picture">
-    <h1>Allan Joshua Manalo</h1>
-    <p>Aspiring Web Developer | Creative Thinker | Problem Solver</p>
-    <a class="download-btn" href="Allan-Joshua-Manalo-Resume.pdf" download>📄 Download Resume</a>
+    <h1>Allan Joshua C. Manalo</h1>
+    <p>Creative Thinker | Problem Solver</p>
   </header>
 
-  <!-- 👤 About Me -->
-  <section id="about">
+  <section>
     <h2>About Me</h2>
-    <p>
-      I'm a passionate and driven individual with a keen interest in web development, design, and building digital solutions. 
-      I enjoy solving problems, learning new technologies, and collaborating on creative projects. My goal is to become a full-stack web developer and contribute to innovative tech teams.
-    </p>
+    <p>I am a motivated and passionate individual aiming to grow in the field of web development. I enjoy solving problems, learning new technologies, and turning ideas into functional websites.</p>
   </section>
 
-  <!-- 🎓 Education -->
-  <section id="education">
+  <section>
     <h2>Education</h2>
     <ul>
-      <li><strong>BS in Information Technology</strong> - University of XYZ (2020 - 2024)</li>
-      <li><strong>Front-End Web Development Course</strong> - freeCodeCamp</li>
-      <li><strong>JavaScript & React Bootcamp</strong> - Udemy</li>
+      <li>Dominican College of Tarlac - BS Information Technology</li>
+      <li>Web Development Courses (HTML, CSS, JavaScript)</li>
     </ul>
   </section>
 
-  <!-- 🛠️ Skills -->
-  <section id="skills">
+  <section>
     <h2>Skills</h2>
     <ul>
-      <li>HTML5, CSS3, JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Multimedia Design</li>
       <li>Responsive Web Design</li>
-      <li>Teamwork & Collaboration</li>
-      <li>Git & GitHub</li>
-      <li>Problem Solving & Debugging</li>
+      <li>Teamwork</li>
     </ul>
   </section>
 
-  <!-- 💼 Projects or Experience -->
-  <section id="projects">
-    <h2>Projects</h2>
+  <section>
+    <h2>Projects or Experience</h2>
     <ul>
-      <li><strong>Portfolio Website:</strong> Personal portfolio built with HTML, CSS, JS showcasing projects and resume.</li>
-      <li><strong>Task Manager App:</strong> A to-do app built with JavaScript that supports CRUD operations.</li>
-      <li><strong>Weather Dashboard:</strong> Fetches real-time weather data using a public API and displays user input city weather.</li>
+      <li>Personal Portfolio Website</li>
+      <li>A Menu List</li>
+      <li>Sinigang Recipe</li>
+        <li>Simple Calculator</li>
     </ul>
   </section>
 
-  <!-- 📫 Contact Me -->
-  <section id="contact">
+  <section class="contact-form">
     <h2>Contact Me</h2>
-    <form class="contact-form">
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send</button>
-    </form>
+    <input type="email" placeholder="Your Email">
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button onclick="alert('Message Sent!')">Send</button>
+    <p>Or reach me at: 0963-708-1134</p>
+    <a href="#" class="download-btn">Download Resume</a>
   </section>
 
-  <!-- 💬 Comment Section -->
-  <section id="comments">
+  <section class="comment-section">
     <h2>Leave a Comment</h2>
-    <form class="comment-form">
-      <input type="text" placeholder="Your Name"
+    <input type="text" placeholder="Your Name">
+    <textarea rows="3" placeholder="Your Comment"></textarea>
+    <button onclick="alert('Comment Submitted!')">Submit</button>
+  </section>
+
+</body>
+</html>
